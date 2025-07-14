@@ -3,7 +3,7 @@
 
 Highlights:
 
-- 🔐 Signup, Login, and 6-Digit Email Verification with **Clerk**
+- 🔐 Signup, Login, and 8-Digit Email Verification with **Clerk**
 - 🍳 Browse Featured Recipes & Filter by Categories
 - 🔍 Search Recipes and View Detailed Cooking Instructions
 - 🎥 Recipe Pages Include YouTube Video Tutorials
