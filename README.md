@@ -1,6 +1,5 @@
 <h1 align="center">🍽️ React Native Recipe App 🍽️</h1>
 
-![Demo App](/mobile/assets/images//screenshot-for-readme.png)
 
 Highlights:
 
@@ -11,11 +10,11 @@ Highlights:
 - ❤️ Add Recipes to Favorites and Access Them from Favorites Tab
 - ⚡ Tech Stack: React Native + Express + PostgreSQL + Expo
 - 🌈 Includes 8 Color Themes
-- 🆓 100% Free Tools — No Paid Services Required
+
 
 ---
 
-## 🧪 .env Setup
+## .env Setup
 
 ### Backend (`/backend`)
 
@@ -48,3 +47,5 @@ cd mobile
 npm install
 npx expo start
 ```
+
+
