@@ -1,18 +1,18 @@
+import { useSignUp } from "@clerk/clerk-expo";
+import { Image } from "expo-image";
+import { useRouter } from "expo-router";
+import { useState } from "react";
 import {
-  View,
-  Text,
   Alert,
   KeyboardAvoidingView,
   Platform,
   ScrollView,
+  Text,
   TextInput,
   TouchableOpacity,
+  View,
 } from "react-native";
-import { useRouter } from "expo-router";
-import { useSignUp } from "@clerk/clerk-expo";
-import { useState } from "react";
 import { authStyles } from "../../assets/styles/auth.styles";
-import { Image } from "expo-image";
 import { COLORS } from "../../constants/colors";
 
 import { Ionicons } from "@expo/vector-icons";
@@ -28,26 +28,39 @@ const SignUpScreen = () => {
   const [pendingVerification, setPendingVerification] = useState(false);
 
   const handleSignUp = async () => {
-    if (!email || !password) return Alert.alert("Error", "Please fill in all fields");
-    if (password.length < 6) return Alert.alert("Error", "Password must be at least 6 characters");
+  if (!email || !password) {
+    return Alert.alert("Error", "Please fill in all fields");
+  }
 
-    if (!isLoaded) return;
+  if (password.length < 8) {
+    return Alert.alert("Error", "Password must be at least 8 characters");
+  }
 
-    setLoading(true);
+  if (!isLoaded) return;
 
-    try {
-      await signUp.create({ emailAddress: email, password });
+  setLoading(true);
 
-      await signUp.prepareEmailAddressVerification({ strategy: "email_code" });
+  try {
+    // ✅ Add a username — safe default: email name before @
+    await signUp.create({
+      emailAddress: email,
+      password,
+      username: email.split("@")[0], // <-- auto username
+    });
 
-      setPendingVerification(true);
-    } catch (err) {
-      Alert.alert("Error", err.errors?.[0]?.message || "Failed to create account");
-      console.error(JSON.stringify(err, null, 2));
-    } finally {
-      setLoading(false);
-    }
-  };
+    await signUp.prepareEmailAddressVerification({
+      strategy: "email_code",
+    });
+
+    setPendingVerification(true);
+  } catch (err) {
+    Alert.alert("Error", err.errors?.[0]?.message || "Failed to create account");
+    console.error(JSON.stringify(err, null, 2));
+  } finally {
+    setLoading(false);
+  }
+};
+
 
   if (pendingVerification)
     return <VerifyEmail email={email} onBack={() => setPendingVerification(false)} />;

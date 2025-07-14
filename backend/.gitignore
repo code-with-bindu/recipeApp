@@ -1,2 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo / React Native
+.expo/
+.expo-shared/
+*.expo
+
+# macOS
+.DS_Store
+
+# Env files
 .env
-node_modules
+.env.*
+
+# VS Code
+.vscode/
+
+# Logs
+logs
+*.log
+
+# Build output
+dist/
+build/
+
+# OS
+Thumbs.db
+
+# Other
+*.local
