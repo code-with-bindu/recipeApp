@@ -141,9 +141,11 @@ Environment variables (.env) store sensitive config like DB URLs or API keys.
 
 
 
-🙌 Thank You!
+
 <p align="center"> ⭐ Feel free to fork, star, and contribute! ⭐ <br/> 📬 For questions, open an issue or reach out! </p> <p align="center"> 👨‍🍳✨ Happy Cooking & Happy Coding! 👨‍🍳✨ </p> ```
-🙌 Thank You!
+
+
+<p align ="center"> 🙌 Thank You! !
 
 
 
