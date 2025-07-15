@@ -1,5 +1,18 @@
 <h1 align="center">🍽️ React Native Recipe App 🍽️</h1>
 
+
+
+<p align="center">
+  <img src="screenshots/homepage.png.jpg" alt="Home Page" width="250"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="screenshots/signin.png.jpg" alt="Sign In" width="250"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="screenshots/recipe.png.jpg" alt="Recipe Detail" width="250"/>
+</p>
+
+
+
+
 A simple, beautiful mobile app to discover, search, and save your favorite recipes.
 
 
