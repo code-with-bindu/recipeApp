@@ -86,7 +86,7 @@ npx expo start
 ```
 
 
-📚 What I Learned
+## 📚 **What I Learned**
 
 
 
@@ -104,45 +104,24 @@ npx expo start
 
 
 
+___
 
 
 
+## ⚡ **Key Features**
 
-✅ Key Features
-
-
-User Authentication (Sign Up, Sign In, Email Verification)
-
-Recipe Search with Debounce
-
-View Recipe Details
-
-Save & View Favorites
-
-Filter Recipes by Category
-
-Responsive & user-friendly UI
-
-
-
- 
-💡 Notes
-
-
-API calls are handled through the services/mealAPl.js file.
-
-The database schema and migrations are managed using Drizzle ORM.
-
-Cron jobs run scheduled tasks if needed (like syncing recipes).
-
-Environment variables (.env) store sensitive config like DB URLs or API keys.
+- 🔐 User Authentication (Sign Up, Sign In, Verify Email)
+- 🔍 Search Recipes with Debounced Input
+- 📃 View Detailed Recipe Information
+- ❤️ Save & View Favorite Recipes
+- 📂 Filter Recipes by Category
+- 📱 Beautiful, mobile-friendly UI
 
 
 
 
 
-
-<p align="center"> ⭐ Feel free to fork, star, and contribute! ⭐ <br/> 📬 For questions, open an issue or reach out! </p> <p align="center"> 👨‍🍳✨ Happy Cooking & Happy Coding! 👨‍🍳✨ </p> ```
+<p align="center"> ⭐ Feel free to fork, star, and contribute! ⭐ <br/> 📬 For questions, open an issue or reach out! </p> <p align="center"> 👨‍🍳✨ Happy Cooking & Happy Coding! 👨‍🍳✨ </p> 
 
 
 <p align ="center"> 🙌 Thank You! !
