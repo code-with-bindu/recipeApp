@@ -25,6 +25,8 @@ Highlights:
 
 
 🛠 Tech Stack
+
+
 Frontend: React Native, Expo, JavaScript, Expo Router
 
 Backend: Node.js, Express.js, Drizzle ORM, Cron Jobs
@@ -74,6 +76,8 @@ npx expo start
 
 
 📚 What I Learned
+
+
 Building a cross-platform app with React Native and Expo.
 
 Implementing secure user authentication and email verification.
@@ -88,6 +92,8 @@ Managing API calls, debouncing search input, and handling state smoothly.
 
 
 ✅ Key Features
+
+
 User Authentication (Sign Up, Sign In, Email Verification)
 
 Recipe Search with Debounce
@@ -101,27 +107,11 @@ Filter Recipes by Category
 Responsive & user-friendly UI
 
 
-🗃️ Project Structure Highlights
-
-RecipeApp/
- ├── mobile/
- │   ├── app/         # All app screens (auth, tabs, recipe details)
- │   ├── assets/      # Fonts, images, styles
- │   ├── components/  # Reusable UI components
- │   ├── constants/   # Colors, API configs
- │   ├── hooks/       # Custom hooks (e.g., useDebounce)
- │   ├── services/    # API call logic
- │   ├── package.json
- │   └── app.json
- ├── backend/
- │   ├── src/         # Server config, DB setup, cron jobs
- │   ├── db/          # Migrations, schema, SQL files
- │   ├── server.js    # Express server
- │   ├── drizzle.config.js
- │   └── package.json
 
  
 💡 Notes
+
+
 API calls are handled through the services/mealAPl.js file.
 
 The database schema and migrations are managed using Drizzle ORM.
@@ -132,6 +122,8 @@ Environment variables (.env) store sensitive config like DB URLs or API keys.
 
 
 🙌 Thank You!
+
+
 Feel free to fork, star ⭐, and improve the project!
 If you have any questions or want to contribute, open an issue or PR.
 
