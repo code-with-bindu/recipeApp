@@ -6,6 +6,8 @@ A simple, beautiful mobile app to discover, search, and save your favorite recip
 
 
 ✨ Purpose of the App
+
+
 RecipeApp helps food lovers easily discover new recipes, search dishes by name, and save favorites for later.
 Users can sign up, sign in, and verify their email securely.
 The app connects to a backend server with a real database and API to fetch up-to-date recipes and manage user data.
