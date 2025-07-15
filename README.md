@@ -5,7 +5,7 @@ A simple, beautiful mobile app to discover, search, and save your favorite recip
 
 
 
-✨ Purpose of the App
+## ✨ **Purpose of the App**
 
 
 RecipeApp helps food lovers easily discover new recipes, search dishes by name, and save favorites for later.
@@ -13,7 +13,7 @@ Users can sign up, sign in, and verify their email securely.
 The app connects to a backend server with a real database and API to fetch up-to-date recipes and manage user data.
 
 
-Highlights:
+**Highlights:**
 
 - 🔐 Signup, Login, and 8-Digit Email Verification with **Clerk**
 - 🍳 Browse Featured Recipes & Filter by Categories
@@ -23,6 +23,7 @@ Highlights:
 - ⚡ Tech Stack: React Native + Express + PostgreSQL + Expo
 - 🌈 Includes 8 Color Themes
 
+___
 
 🛠 Tech Stack
 
