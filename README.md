@@ -3,9 +3,9 @@
 
 
 <p align="center">
-  <img src="screenshots/homepage.png.jpg" alt="Home Page" width="250"/>
+  <img src="screenshots/signin.png.jpg" alt="Home Page" width="250"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="screenshots/signin.png.jpg" alt="Sign In" width="250"/>
+  <img src="screenshots/homepage.png.jpg" alt="Sign In" width="250"/>
   &nbsp; &nbsp; &nbsp;
   <img src="screenshots/recipe.png.jpg" alt="Recipe Detail" width="250"/>
 </p>
