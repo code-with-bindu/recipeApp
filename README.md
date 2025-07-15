@@ -27,13 +27,24 @@ Highlights:
 🛠 Tech Stack
 
 
-Frontend: React Native, Expo, JavaScript, Expo Router
+-Frontend: React Native, Expo, JavaScript, Expo Router
 
-Backend: Node.js, Express.js, Drizzle ORM, Cron Jobs
+-Backend: Node.js, Express.js, Drizzle ORM, Cron Jobs
 
-Database: SQL-based (SQLite / PostgreSQL)
+-Database: SQL-based (SQLite / PostgreSQL)
 
-Others: Expo Go, React Native Stylesheets, custom hooks, environment variables
+-Others: Expo Go, React Native Stylesheets, custom hooks, environment variables
+
+
+
+
+## 🔗 **How It Works**
+
+- 📱 **Frontend:** Users interact with the mobile app screens built in React Native.
+- 🌐 **API:** The app makes requests through `services/mealAPl.js` to the backend.
+- 🗄️ **Backend:** Express handles API routes, queries the database, and returns data.
+- 🧩 **Database:** Recipes, user accounts, and favorites are stored in a SQL DB.
+- 🔁 **Cron Jobs:** Automatically handle tasks like syncing or cleaning data if needed.
 
 
 ---
@@ -78,17 +89,23 @@ npx expo start
 📚 What I Learned
 
 
-Building a cross-platform app with React Native and Expo.
 
-Implementing secure user authentication and email verification.
+✅ Breaking the app into reusable components & screens
 
-Using Drizzle ORM for database schema and migrations.
+✅ Connecting mobile frontend with backend APIs
 
-Connecting a mobile app to a Node.js backend with REST APIs.
+✅ Managing authentication flow securely
 
-Working with custom hooks, reusable components, and modular folder structures.
+✅ Using Drizzle ORM for clean DB management
 
-Managing API calls, debouncing search input, and handling state smoothly.
+✅ Scheduling tasks with Cron jobs
+
+✅ Working with GitHub for version control & collaboration
+
+
+
+
+
 
 
 ✅ Key Features
@@ -121,13 +138,15 @@ Cron jobs run scheduled tasks if needed (like syncing recipes).
 Environment variables (.env) store sensitive config like DB URLs or API keys.
 
 
+
+
+
+🙌 Thank You!
+<p align="center"> ⭐ Feel free to fork, star, and contribute! ⭐ <br/> 📬 For questions, open an issue or reach out! </p> <p align="center"> 👨‍🍳✨ Happy Cooking & Happy Coding! 👨‍🍳✨ </p> ```
 🙌 Thank You!
 
 
-Feel free to fork, star ⭐, and improve the project!
-If you have any questions or want to contribute, open an issue or PR.
 
-Happy coding & happy cooking! 👨‍🍳✨
 
 
 
